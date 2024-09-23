@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
 const StatCard = ({ icon, endValue, label, duration }) => {
   const [value, setValue] = useState(0);
   const controls = useAnimation();
@@ -44,7 +43,15 @@ const StatCard = ({ icon, endValue, label, duration }) => {
 const StatsSection = () => {
   return (
     <section className="bg-black py-16">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      {/* Slogan */}
+      <div className="text-center text-white mb-12">
+        <h2 className="text-3xl font-semibold">
+          In The Language Of Success, <span className="text-orange-500">Our Count</span> Speaks Volumes.
+        </h2>
+      </div>
+
+      {/* Stats Cards */}
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-center">
         <StatCard
           icon="👁️"
           endValue={5000000}

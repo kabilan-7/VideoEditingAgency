@@ -8,6 +8,7 @@ import VideoGrid from './components/VideoGrid/VideoGrid'
 import { TextGenerateEffect } from './components/ui/text-generate-effect'
 import { BackgroundBeamsWithCollision } from './components/ui/background-beams-with-collision'
 import StatsSection from './components/StatsSection/StatsSection'
+import ServicesSection from './components/ServiceCard/ServiceCard'
 const App = () => {
   return (
    <div>
@@ -16,7 +17,8 @@ const App = () => {
     {/* <BackgroundVideo /> */}
     <VideoGrid/>
     <StatsSection/>
-    <BackgroundLines/>
+    <ServicesSection/>
+    {/* <BackgroundLines/> */}
     {/* <BackgroundBeamsWithCollision/> */}
     
    </div>

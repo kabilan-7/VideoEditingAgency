@@ -63,7 +63,7 @@ const VideoGrid = () => {
           <motion.div
             key={video.id}
             variants={videoItemVariants}
-            className="relative overflow-hidden bg-gray-800 p-4 rounded-lg shadow-lg"
+            className="relative overflow-hidden border-2 border-orange-500 p-4 rounded-lg  shadow-[0_4px_10px_rgba(234,88,12,0.6)]"
           >
             <video
               src={video.src}
