@@ -1,11 +1,11 @@
 "use client";
-import { cn } from "../../lib/utils";
+import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
 
 export const BackgroundBeamsWithCollision = ({
   children,
-  className,
+  className
 }) => {
   const containerRef = useRef(null);
   const parentRef = useRef(null);
@@ -64,10 +64,10 @@ export const BackgroundBeamsWithCollision = ({
   ];
 
   return (
-    (<div 
+    (<div
       ref={parentRef}
       className={cn(
-        "h-96 md:h-[40rem] bg-black relative flex items-center w-full justify-center overflow-hidden",
+        "h-96 md:h-[40rem] bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative flex items-center w-full justify-center overflow-hidden",
         // h-screen if you want bigger
         className
       )}>

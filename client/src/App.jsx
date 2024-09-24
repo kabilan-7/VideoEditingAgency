@@ -9,19 +9,36 @@ import { TextGenerateEffect } from './components/ui/text-generate-effect'
 import { BackgroundBeamsWithCollision } from './components/ui/background-beams-with-collision'
 import StatsSection from './components/StatsSection/StatsSection'
 import ServicesSection from './components/ServiceCard/ServiceCard'
+import { InfiniteMovingCards } from './components/ui/infinite-moving-cards'
+import Feedback from './components/FeedBack/Feedback'
 const App = () => {
+  
+  
   return (
-   <div>
-    <Nav/>
-    <HeroSection/>
-    {/* <BackgroundVideo /> */}
-    <VideoGrid/>
-    <StatsSection/>
-    <ServicesSection/>
-    {/* <BackgroundLines/> */}
-    {/* <BackgroundBeamsWithCollision/> */}
-    
-   </div>
+    <div>
+      <Nav />
+      {/* Add id="home" to scroll to this section when clicking "Home" */}
+      <section id="home">
+          <HeroSection />
+      </section>
+      {/* Other sections */}
+
+      <section>
+      <Feedback/>
+      </section>
+      <section>
+        <VideoGrid />
+      </section>
+
+      <section>
+        <StatsSection />
+      </section>
+
+      {/* Add id="services" to scroll to this section when clicking "Services" */}
+      <section id="services">
+        <ServicesSection />
+      </section>
+    </div>
   )
 }
 

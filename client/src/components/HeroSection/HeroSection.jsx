@@ -3,7 +3,7 @@ import { TextGenerateEffect } from '../ui/text-generate-effect';
 const HeroSection = () => {
   let words="Transform Your Vision Into Reality with Stunning Video Edits"
   return (
-    <div className='bg-black'>
+    <div>
     <section className="bg-cover bg-center h-screen flex items-center justify-center text-white text-center px-4" >
       <div className="max-w-2xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">

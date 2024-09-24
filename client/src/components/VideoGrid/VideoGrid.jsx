@@ -44,7 +44,7 @@ const VideoGrid = () => {
   const isInView = useIntersectionObserver(gridRef); // Use the custom hook
 
   return (
-    <section className="py-10 bg-black text-white">
+    <section className="py-10  text-white">
       {/* Slogan Section */}
       <div className="text-center mb-8">
         <h2 className="text-3xl md:text-5xl font-bold">Where Every Video Tells a Story</h2>

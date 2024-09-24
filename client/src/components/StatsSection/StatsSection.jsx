@@ -42,7 +42,7 @@ const StatCard = ({ icon, endValue, label, duration }) => {
 
 const StatsSection = () => {
   return (
-    <section className="bg-black py-16">
+    <section className="py-16">
       {/* Slogan */}
       <div className="text-center text-white mb-12">
         <h2 className="text-3xl font-semibold">

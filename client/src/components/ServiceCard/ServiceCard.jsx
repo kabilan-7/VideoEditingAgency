@@ -14,7 +14,7 @@ const ServiceCard = ({ icon, title, description }) => {
 
 const ServicesSection = () => {
   return (
-    <section className="bg-black py-16">
+    <section className="py-16">
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold text-orange-400 mb-4">Our Services</h2>
         <p className="text-lg text-gray-400">
@@ -38,11 +38,7 @@ const ServicesSection = () => {
           title="Motion Graphics"
           description="Custom motion graphics to bring your ideas to life, making your content visually engaging."
         />
-        <ServiceCard
-          icon={<FaMusic />}
-          title="Audio Editing"
-          description="High-quality sound design and audio editing to ensure your videos sound as great as they look."
-        />
+      
       </div>
     </section>
   );
