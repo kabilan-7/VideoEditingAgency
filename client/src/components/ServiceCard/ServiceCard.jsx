@@ -3,7 +3,7 @@ import { FaVideo, FaPalette, FaRegLightbulb, FaMusic } from 'react-icons/fa';
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="bg-black border-2 border-orange-500 rounded-lg p-8 text-center text-white   shadow-[0_4px_10px_rgba(234,88,12,0.6)]">
+    <div className="bg-black border-2 border-orange-500 rounded-lg p-8 text-center text-white  shadow-[0_4px_10px_rgba(234,88,12,0.6)]">
   <div className="text-5xl text-orange-500 mb-6">{icon}</div>
   <h3 className="text-xl font-bold text-orange-400 mb-4">{title}</h3>
   <p className="text-gray-300 text-xl text-justify">{description}</p>
