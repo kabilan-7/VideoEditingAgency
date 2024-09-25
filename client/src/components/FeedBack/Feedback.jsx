@@ -39,7 +39,7 @@ const Feedback = () => {
   return (
     <div className="feedback-section py-10 px-4">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-4 sm:mb-6">
-        What Our Clients Say
+        What Our <span className='text-orange-500'>Clients</span> Say
       </h2>
       <p className="text-lg sm:text-xl md:text-2xl text-gray-300 text-center mb-3 sm:mb-4">
         We take pride in delivering exceptional service. Here's what our clients have to say about their experiences:

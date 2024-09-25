@@ -11,6 +11,7 @@ import StatsSection from './components/StatsSection/StatsSection'
 import ServicesSection from './components/ServiceCard/ServiceCard'
 import { InfiniteMovingCards } from './components/ui/infinite-moving-cards'
 import Feedback from './components/FeedBack/Feedback'
+import About from './components/About/About'
 const App = () => {
   
   
@@ -37,6 +38,9 @@ const App = () => {
       {/* Add id="services" to scroll to this section when clicking "Services" */}
       <section id="services">
         <ServicesSection />
+      </section>
+      <section id='about'>
+        <About/>
       </section>
     </div>
   )

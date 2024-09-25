@@ -47,7 +47,7 @@ const VideoGrid = () => {
     <section className="py-10  text-white">
       {/* Slogan Section */}
       <div className="text-center mb-8">
-        <h2 className="text-3xl md:text-5xl font-bold">Where Every Video Tells a Story</h2>
+        <h2 className="text-3xl md:text-5xl font-bold">Where Every Video Tells a <span className='text-orange-500'>Story</span> </h2>
         <p className="text-lg md:text-2xl text-gray-300 mt-4">Explore Visual Narratives in Motion</p>
       </div>
 

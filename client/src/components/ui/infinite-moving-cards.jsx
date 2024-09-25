@@ -1,5 +1,3 @@
-"use client";
-
 import { cn } from "../../lib/utils";
 import React, { useEffect, useState } from "react";
 
@@ -68,7 +66,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        " scroller relative z-20 max-w-8xl overflow-hidden", // Removed mask-image property
+        " scroller relative z-20 max-w-7xl mx-auto px-6 overflow-hidden", // max-width and padding adjustments
         className
       )}
     >
