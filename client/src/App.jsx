@@ -12,6 +12,8 @@ import ServicesSection from './components/ServiceCard/ServiceCard'
 import { InfiniteMovingCards } from './components/ui/infinite-moving-cards'
 import Feedback from './components/FeedBack/Feedback'
 import About from './components/About/About'
+import AboutUs from './components/About/About'
+import Copyright from './components/CopyWrite/CopyWrite'
 const App = () => {
   
   
@@ -40,8 +42,9 @@ const App = () => {
         <ServicesSection />
       </section>
       <section id='about'>
-        <About/>
+        <AboutUs/>
       </section>
+      <Copyright/>
     </div>
   )
 }
